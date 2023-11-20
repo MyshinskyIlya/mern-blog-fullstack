@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect } from "react";
 import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import Grid from "@mui/material/Grid";
@@ -9,7 +9,6 @@ import { CommentsBlock } from "../components/CommentsBlock";
 
 import { fetchPosts, fetchTags } from "../redux/slices/posts";
 import { useDispatch, useSelector } from "react-redux";
-import { selectIsAuth } from "../redux/slices/auth";
 
 export const Home = () => {
     const dispatch = useDispatch();
@@ -18,7 +17,6 @@ export const Home = () => {
     const isTagsLoading = tags.status === "loading";
 
     const userData = useSelector((state) => state.auth.data);
-    const isAuth = useSelector(selectIsAuth);
 
     useEffect(() => {
         dispatch(fetchPosts());
