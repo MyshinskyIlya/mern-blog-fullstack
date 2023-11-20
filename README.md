@@ -14,6 +14,7 @@
                 <li><i>CSS-Modules</i></li>
                 <li><i>MongoDB Compass</i></li>
                 <li><i>Insomnia</i></li>
+                <li><i>LocalStorage</i></li>
                 <li><i>Heroku</i></li>
                 <li><i>Versel</i></li>
             </ul>
@@ -28,6 +29,7 @@
                 <li><i>multer</i></li>
                 <li><i>axios + fetch</i></li>
                 <li><i>react-router v6</i></li>
+                <li><i>react-markdown</i></li>
             </ul>
              <h2>Middlewares</h2>
             <ul>
