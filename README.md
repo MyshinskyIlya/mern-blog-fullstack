@@ -29,6 +29,11 @@
                 <li><i>axios + fetch</i></li>
                 <li><i>react-router v6</i></li>
             </ul>
+             <h2>Middlewares</h2>
+            <ul>
+                <li><i>checkAuth</i></li>
+                <li><i>handleValidationErrors</i></li>
+            </ul>
             <h2>React Hooks</h2>
                 <ul>
                   <li><i>useCallback</i></li>
