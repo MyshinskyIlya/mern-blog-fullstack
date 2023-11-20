@@ -7,6 +7,7 @@
             <ul>
                 <li><i>React</i></li>
                 <li><i>Node express</i></li>
+                <li><i>CRUD model (create, read, update, remove)</i></li>
                 <li><i>Redux@toolkit</i></li>
                 <li><i>Redux AsyncThunk</i></li>
                 <li><i>React Material UI</i></li>
